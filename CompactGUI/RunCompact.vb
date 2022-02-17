@@ -70,7 +70,7 @@ Partial Class Compact
 
         MyProcess.Start()
                                             //causes crash ?
-        "MyProcess.PriorityClass = ProcessPriorityClass.BelowNormal"
+        //MyProcess.PriorityClass = ProcessPriorityClass.BelowNormal
         MyProcess.EnableRaisingEvents = True
         MyProcess.BeginErrorReadLine()
         MyProcess.BeginOutputReadLine()
