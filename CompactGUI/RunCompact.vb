@@ -69,8 +69,8 @@ Partial Class Compact
         End With
 
         MyProcess.Start()
-                                            //causes crash ?
-        //MyProcess.PriorityClass = ProcessPriorityClass.BelowNormal
+                                            ' causes crash ?
+                                            ' Process.PriorityClass = ProcessPriorityClass.BelowNormal
         MyProcess.EnableRaisingEvents = True
         MyProcess.BeginErrorReadLine()
         MyProcess.BeginOutputReadLine()
